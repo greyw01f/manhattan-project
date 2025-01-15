@@ -1,3 +1,18 @@
+.navbar {
+
+    background-color: firebrick;
+}
+
+.navbar-brand {
+
+    color:beige;
+} 
+
+#portada {
+    width:80%;
+    
+}
+
 h1  {
     font-family: Arial, Helvetica, sans-serif;
     color:darkred
