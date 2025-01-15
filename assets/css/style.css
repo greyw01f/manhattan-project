@@ -1,6 +1,6 @@
 .navbar {
 
-    background-color: firebrick;
+    background-color: #BC4A3C;
 }
 
 .navbar-brand {
@@ -8,22 +8,12 @@
     color:beige;
 } 
 
-#portada {
-    width:80%;
-    
+.card {
+    justify-content: center;
 }
 
-h1  {
-    font-family: Arial, Helvetica, sans-serif;
-    color:darkred
-}
+body {background-color: wheat;}
 
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color:firebrick
-}
-body {background-color: moccasin;}
-
-footer {background-color: brown;
+footer {background-color: #BC4A3C;
 color:ghostwhite;
 font-family: Verdana, Geneva, Tahoma, sans-serif;}
