@@ -1,0 +1,14 @@
+h1  {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkred
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:firebrick
+}
+body {background-color: moccasin;}
+
+footer {background-color: brown;
+color:ghostwhite;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
