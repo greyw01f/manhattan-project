@@ -11,9 +11,23 @@
 .card {
     justify-content: center;
 }
+/* body en reserva
+body {background-image: url("/assets/img/fachada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    
+}*/
 
-body {background-color: wheatgit;}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
 
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
 footer {background-color: #BC4A3C;
 color:ghostwhite;
 font-family: Verdana, Geneva, Tahoma, sans-serif;}
