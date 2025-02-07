@@ -31,3 +31,9 @@ body {background-image: url("/assets/img/fachada.jpg");
 footer {background-color: #BC4A3C;
 color:ghostwhite;
 font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+}

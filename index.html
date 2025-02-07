@@ -8,7 +8,54 @@
     
     <title>Edificio Manhattan - Providencia</title>
 </head>
+<header>
+  <nav class="navbar bg-body-">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/assets/img/logo.png" alt="Bootstrap">
+      </a>
+    </div>
+  </nav>
+</header>
 <body>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/img/manhattan00.jpg" class="d-block w-100" alt="barrio">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ubicado en el corazón comercial de Providencia</h5>
+          <p>A pasos del Metro Tobalaba y el Mall Cenco Costanera</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/manhattan22.jpg" class="d-block w-100" alt="acceso" >
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fácil acceso</h5>
+          <p>Ubicado en la esquina de Luis Thayer Ojeda con Nueva Providencia</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/manhattan33.jpg" class="d-block w-100" alt="seguridad">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Más seguridad</h5>
+          <p>Sus accesos son controlados para asegurar la seguridad de la comunidad</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
   <!--
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -49,6 +96,7 @@
         </article>
     </main>
     <footer>
+      
         <center>
         <p>Avenida Luis Thayer Ojeda 0191, Providencia</p>
         <p>Metro Tobalaba</p>
